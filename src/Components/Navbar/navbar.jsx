@@ -1,9 +1,7 @@
 import './navbar.css'
-import { BiChevronDown } from 'react-icons/bi'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { AiOutlineClose } from 'react-icons/ai'
 import { useState } from 'react';
-// import { NavLink } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 
 function CustomNavbar(){

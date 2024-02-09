@@ -566,7 +566,7 @@ font-weight: 600;
   -webkit-text-fill-color: transparent; 
   -webkit-background-clip: text; 
   display: flex;
- justify-content: end;
+  flex: end;
 }
 
 .clients .container{

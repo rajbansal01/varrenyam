@@ -3,7 +3,6 @@ import '../BookConsultation/bookConsultation.css'
 import mail from '../Assets/mail.png'
 import contact from '../Assets/contact.png'
 import id from '../Assets/id.png'
-import { Link } from "react-router-dom";
 import socialId from '../Assets/socialId.png'
 
 function About(){
