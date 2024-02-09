@@ -1,0 +1,41 @@
+.bookConsult .bookConsult-image img{
+    width: 100%;
+}
+
+.bookConsult .mail img{
+    width: 10%;
+}
+.bookConsult-content{
+    background-color: #F4F0EC;
+    border-radius: 50px;
+}
+.bookConsult-content .mail{
+    padding-left: 35px;
+}
+.bookConsult-content img{
+    padding-left: 35px;
+}
+.bookConsult-content .mail p{
+    text-align: start !important;
+    margin-left: 15px;
+}
+.book-consult-form .form-control{
+    width: 45%;
+    margin: auto;
+    background-color: white !important;
+}
+form .btn{
+    display: flex;
+    justify-content: end;
+    background-color: #006D77;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    .bookConsultant-form .bookConsult-content{
+        width: 100%;
+    }
+    .bookConsultant-form .book{
+        margin-top: 40px;
+        width: 100%;
+    }
+}

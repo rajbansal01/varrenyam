@@ -1,0 +1,127 @@
+.about .about-image img{
+    background-image: url('../Assets/aboutBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important;
+    margin-top: 110px !important;
+}
+.about-image h3{
+    color: #006D77;
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    padding-top: 10px;
+}
+.about-image .aboutt-uss{
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+  }
+  @media screen and (min-width:461px) and (max-width:768px) {
+    .about-image .aboutt-uss{
+        position: absolute;
+        bottom: -7%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 25%;
+      }   
+  }
+  @media screen  and (max-width:460px) {
+    .about-image .aboutt-uss{
+        position: absolute;
+        bottom: -9%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 35%;
+      }   
+  }
+.who-are-we p{
+    font-size: 20px;
+    font-family: 'IBM Plex Sans';
+}
+.about .vision img{
+    width: 90%;
+}
+.about .vision-image{
+    display: flex;
+
+}
+.about .vision-content{
+    /* display: flex; */
+    margin: auto;
+}
+.milestones li{
+    font-family: 'IBM Plex Sans';
+}
+
+.industry .card-img-top{
+    width: 25%;
+}
+.industry{
+    background-color: #F4EFEB;
+    padding: 25px;
+    border-radius: 20px;
+}
+.industry-we-served .served-parts img{
+    margin: auto;
+    display: flex;
+    justify-content: center !important;
+    text-align: center;
+    width: 30%;
+}
+.industry-we-served .served-parts p{
+color: #006D77;
+font-family: 'IBM Plex Sans';
+font-size: 12px
+}
+
+.served-parts {
+    /* border-right: 1px solid #85C4BC; 
+    border-bottom: 1px solid #85C4BC;  */
+    padding: 20px;
+    height: 120px;
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(232,232,232,1);
+-moz-box-shadow: 10px 10px 5px -4px rgba(232,232,232,1);
+box-shadow: 10px 10px 5px -4px rgba(232,232,232,1);
+}
+
+/* .row.industry-we-served .col-lg-2:first-child .served-parts {
+    border-left: none;
+} */
+
+/* .row.industry-we-served .col-lg-2:nth-child() .served-parts {
+    border-right: none;
+} */
+
+/* .row.industry-we-served .col-lg-2:nth-child(-n+7) .served-parts {
+    border-top: none;
+} */
+
+/* .row.industry-we-served .col-lg-2:nth-child() .served-parts {
+    border-bottom: none;
+}
+@media screen and (max-width:575px) {
+    .industry-we-served .served-parts img{
+        margin: auto;
+        display: flex;
+        justify-content: center !important;
+        text-align: center;
+        width: 9%;
+    }
+    
+}
+
+@media screen and (max-width:991px) {
+    .row.industry-we-served .col-lg-2:nth-child() .served-parts {
+        border-right: none;
+    }
+    .row.industry-we-served .col-lg-2:nth-child() .served-parts {
+        border-left: 1px solid #85C4BC; ;
+    }
+    
+} */
+
+

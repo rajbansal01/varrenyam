@@ -1,0 +1,191 @@
+div.navbar-area{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    padding: 10px 0;
+    background: transparent;
+}
+.App{
+    text-align: start;
+}
+.navbar-area{
+    background-color: white !important;
+}
+
+div.navbar-area div.navbar-brand img.navbar-brand-img{
+    content: url('/src/Assets/varrenyamLogo.png');
+    width: 50% ;
+}
+
+div.navbar-area.scrolled{
+    background: whitesmoke;
+    transition: all 0.6s ease-in-out;
+}
+
+div.navbar-area.scrolled div.navItems>li{
+    color: black;
+}
+
+.btn-outline-warning{
+    padding: 8px 25px 8px 25px !important;
+    border-radius: 20px 20px 20px 20px !important;
+}
+
+div.navItems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.navItems>li{
+    list-style: none;
+    margin-right: 40px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 17px;
+    font-weight: 400;
+}   
+
+.navItems :hover{
+    color: rgba(234, 118, 0, 1);
+    font-weight: 700;
+    /* text-decoration: underline; */
+    /* display: block; */
+    /* fill: #020063; */
+}
+/* .navItems .dropdownn :hover{
+    color: rgb(255, 170, 0);
+} */
+
+.navItems .links.active{
+color: #EA7600;
+font-weight: 700;
+}
+
+#dropdownMenu :hover{
+    color: rgb(255, 170, 0);
+}
+
+div.navItems>li>a{
+    text-decoration: none;
+    color: inherit;
+}
+/* .navItems{
+    display: block;
+} */
+div.nav-toggler-icon{
+    display: none;
+    padding-right: 16px;
+}
+div.navbar-area div.nav-toggler-icon{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.navbar-area .btn{
+    background-color: rgba(0, 109, 119, 1);
+    color: white;
+    
+}
+div.navbar-area.scrolled div.nav-toggler-icon{
+    color: black;
+    font-size: 25px;
+    cursor: pointer;   
+}
+/* div.nav-toggler-icon .hamIcon{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+} */
+
+div.custom-sidebar{
+    height: 120%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    /* background-color: #111; */
+    background: linear-gradient(0deg, #ff2f2f 5.43%, #000460 92.78%), radial-gradient(100% 246.94% at 100% 0, #fff 0, #020063 100%), linear-gradient(143.18deg, #1400ff 0.45%, #3a0000), linear-gradient(167.55deg, #ff002e, #ff003d 74.04%), linear-gradient(351.18deg, #b25bba 7.52%, #1700a7 77.98%), linear-gradient(202.44deg, #a90000 12.99%, #00ffe0 87.21%), linear-gradient(165.77deg, #b7d500 15.35%, #20a 89.57%);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+}
+div.close-btn-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 20px;
+    /* margin-right: 20px; */
+    cursor: pointer;
+}
+div.close-btn-wrapper .close-icon{
+    font-size: 30px;
+    color: white;
+}
+.sidebar-list{
+    list-style: none;
+    padding-left: 0;
+}
+ul.sidebar-item-child{
+    list-style: none;
+}
+ul.sidebar-item-child li a{
+    font-size: 1.2rem;
+
+}
+
+.navItems .btn-outline-warning:hover{
+    color: white !important;
+    font-weight: 500;
+}
+.custom-sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.custom-sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.custom-sidebar.show{
+    width: 100%;
+}
+
+@media only screen and (max-width: 769px){
+    div.navItems{
+        display: none;
+        position: absolute;
+        padding-bottom: 90px;
+        left: 0;
+        flex-direction: column;
+        width: 70%;
+        background: whitesmoke;
+        border: 1px solid red;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.4s ease-in-out;
+    }
+    /* div.navItems.clicked{
+        max-height: 100%;
+    } */
+    div.nav-toggler-icon{
+        display: block;
+    }
+    div.navItems>li{
+        display: block;
+        width: 100%;
+        /* padding: 10px; */
+        text-align: center;
+        color: black;
+    }
+    
+}
+
+@media only screen and (max-width: 769px){
+    img.navbar-brand-img{
+        width: 40% !important;
+    }
+}
