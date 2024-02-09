@@ -4,28 +4,27 @@ import '../Footer/footer.css'
 import Phone from '../../Assets/phone.png'
 import Map from '../../Assets/map.png'
 import Globe from '../../Assets/globe.png'
-import { useState } from 'react';
 
 function Footer(){
 
-    const [color, setColor] = useState(''); 
+    // const [color, setColor] = useState(); 
 
     function scrollToUpward(color){
         if(color==='Home'){
             window.scrollTo({ top: 0, behavior: 'smooth' });
-            setColor('Home')
+            // setColor('Home')
         }
         else if(color==='About us'){
             window.scrollTo({ top: 0, behavior: 'smooth' });
-            setColor('About us')
+            // setColor('About us')
         }
         if(color==='Team'){
             window.scrollTo({ top: 0, behavior: 'smooth' });
-            setColor('Team')
+            // setColor('Team')
         }
         if(color==='Book A Free consultant'){
             window.scrollTo({ top: 0, behavior: 'smooth' });
-            setColor('Book A Free consultant')
+            // setColor('Book A Free consultant')
         }
     }
     return(
