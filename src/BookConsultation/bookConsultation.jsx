@@ -29,7 +29,7 @@ function About(){
                         <img className='px-0' src={id} alt="" />
                         <p className='my-0 px-0 text-center'>khandelwal@varrenyam.net.in</p>
                     </div>
-                    <img className='my-3' src={socialId} alt="" />
+                    {/* <img className='my-3' src={socialId} alt="" /> */}
                     
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12 book">
@@ -44,7 +44,7 @@ function About(){
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label text-dark">Hello I am Interested in..</label>
-                    <textarea  class="form-control  border-0 border-bottom my-3"  rows="5"  id="exampleInputPassword1"/>
+                    <textarea  class="form-control  border-0 border-bottom my-3"  rows="3"  id="exampleInputPassword1"/>
                 </div>
                 <div style={{float:'right'}}>
 

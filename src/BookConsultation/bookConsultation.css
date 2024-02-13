@@ -29,8 +29,17 @@ form .btn{
     flex: end;
     background-color: #006D77;
 }
+@media screen and (max-width:767px){
+    .book-consult-form .form-control{
+        margin-top: 15px !important;
+        width: 100% !important;
+        margin: auto;
+        background-color: white !important;
+    }
+    
+}
 
-@media only screen and (min-width: 320px) and (max-width: 425px){
+@media only screen and (max-width: 575px){
     .bookConsultant-form .bookConsult-content{
         width: 100%;
     }

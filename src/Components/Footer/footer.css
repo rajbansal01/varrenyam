@@ -26,7 +26,7 @@
   } */
   
   .single-footer-widget .row img {
-    width: 12%;
+    width: 10%;
     /* display: flex;
     justify-content: center; */
     /* margin-right: 10px;  */
@@ -137,4 +137,18 @@
   .horizontal-line hr{
     color: white;
     width: 100%;
+  }
+
+  .mapp{
+    width: 50% !important;
+  }
+  @media screen and (max-width:991px) {
+    .mapp{
+      width: 30% !important;
+      padding-left: 12px ;
+    }
+    
+  }
+  .globee{
+    width: 5% !important;
   }

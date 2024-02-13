@@ -58,7 +58,7 @@ function About() {
                 </div> */}
         <div className="row who-we-are my-5">
           <div className="col-lg-6">
-            <h1 className="fw-bold">Who we are</h1>
+            <h2 className="fw-bolder">Who we are</h2>
             <p>
               Established in 2002, Varrenyam Consultants Pvt. Ltd. proudly
               operates in New Delhi and Mumbai. Our track record speaks volumes
@@ -71,16 +71,16 @@ function About() {
               well-rounded services
             </p>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 text-center">
             <img src={WhoAreWe} style={{ width: "90%" }} alt="" />
           </div>
         </div>
         <div className="row vision my-5">
-          <div className="col-lg-5 vision-image">
+          <div className="col-lg-6 text-center">
             <img src={Vision} alt="" />
           </div>
           <div className="col-lg-6 vision-content">
-            <h1 className="fw-bold">Vison</h1>
+            <h2 className="fw-bolder">Vision</h2>
             <p>
               To emerge as the premier ‘One Stop Financial Solution Provider’
               specializing in the resolution of distresses assets. Offering
@@ -89,10 +89,10 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="row milestones my-3">
+        <div className="row milestones my-4">
           <img src={Milestones} alt="" />
         </div>
-        <h1 className="my-3 fw-bold">Milestones</h1>
+        <h2 className="my-3 fw-bolder">Milestones</h2>
         <ul>
           <li>
             Successfully navigating the financial landscape, we have completed
@@ -125,7 +125,7 @@ function About() {
         </ul>
 
         <div className="row">
-          <h2 className="text-center my-5">
+          <h2 className="text-center my-5 fw-bolder">
             Industry Association and Membership
           </h2>
           <div className="container">
@@ -147,7 +147,7 @@ function About() {
         </div>
 
         <div className="row industry-we-served">
-          <h2 className="text-center my-5">Industry we Served</h2>
+          <h2 className="text-center my-5 fw-bolder">Industry we Served</h2>
 
           <div className="col-lg-2 col-md-3 col-sm-3 p-0 p-0">
             <div className="served-parts">

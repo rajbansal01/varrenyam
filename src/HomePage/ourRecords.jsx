@@ -10,14 +10,14 @@ function OurRecords(){
         <div className="records">
                     <h3>Our Records</h3>
                 </div>
-        <div className="col-lg-6 col-sm-6 col-md-6">
+        <div className="col-lg-6 ">
             <div className="our_recordsImage" style={{position:'relative'}}>
         <img src={OurRecordsFront} alt="" style={{objectFit:'cover',width:'100%',}} />
                 
 
             </div>
         </div>
-        <div className="col-lg-6 col-sm-6 col-md-6">
+        <div className="col-lg-6 ">
             <div className="our_records_content">
                 <div className="row">
 

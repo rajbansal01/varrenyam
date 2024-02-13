@@ -82,18 +82,18 @@ function CoreData({image,name,designation,bio,competencies}){
                 </div>
 
                 <div className="row core-name mt-5">
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 mt-3">
                         <img src={image} alt="" />
                     </div>
-                    <div className="col-lg-8">
+                    <div className="col-lg-8 mt-2">
                         <h3>{name}</h3>
                         <span className='pt-3'>{designation}</span>
                         <p className='my-4'>{bio}</p>
-                        <img className='social' src={Social} alt="" />
+                        {/* <img className='social' src={Social} alt="" /> */}
                     </div>
                 </div>
                 <div className="row biography">
-                <h2 className='fw-bold mt-4'>Short Biography​</h2>
+                <h2 className='fw-bolder mt-4'>Short Biography​</h2>
                 <h3 className='mt-2 mb-4'>Key Competencies</h3>
                 {competencies?.map(function (val, index) {
                     // return { key: index, value: val * val };
@@ -140,30 +140,30 @@ function CoreData({image,name,designation,bio,competencies}){
 
                     <div className="container-fluid members">
         <div className="row">
-            <h2 className='text-center fw-bold'>Our Team Members</h2>
-                    <div className="col-lg-3 col-md-6 core-team1" onClick={()=>scrollToUpward('Mahendra khandelwal') } >
+            <h2 className='text-center fw-bolder mb-4'>Our Team Members</h2>
+                    <div className="col-lg-3 col-md-6 core-team1 mb-4" onClick={()=>scrollToUpward('Mahendra khandelwal') } >
                         <img className='member' src={CoreImage} alt="" />
                         <h5 className='text-center mt-3 mb-0'>Mahendra khandelwal </h5>
                         <p className='text-center'>Design, Australia</p>
-                        <img src={Social} alt="" />
+                        {/* <img src={Social} alt="" /> */}
                     </div>
-                    <div className="col-lg-3 col-md-6 core-team1" onClick={()=> scrollToUpward('Mohit Bansal')}>
+                    <div className="col-lg-3 col-md-6 core-team1 mb-4" onClick={()=> scrollToUpward('Mohit Bansal')}>
                         <img className='member' src={Core2} alt="" />
                         <h5 className='text-center mt-3 mb-0'>Mohit Bansal</h5>
                         <p className='text-center'>Design, Australia</p>
-                        <img src={Social} alt="" />
+                        {/* <img src={Social} alt="" /> */}
                     </div>
-                    <div className="col-lg-3 col-md-6 core-team1" onClick={()=>scrollToUpward('Ravi Kant Baheti') }>
+                    <div className="col-lg-3 col-md-6 core-team1 mb-4" onClick={()=>scrollToUpward('Ravi Kant Baheti') }>
                         <img className='member' src={Core3} alt="" />
                         <h5 className='text-center mt-3 mb-0'>Ravi Kant Baheti </h5>
                         <p className='text-center'>Design, Australia</p>
-                        <img src={Social} alt="" />
+                        {/* <img src={Social} alt="" /> */}
                     </div>
-                    <div className="col-lg-3 col-md-6 core-team1" onClick={()=> scrollToUpward('Astha Gupta')}>
+                    <div className="col-lg-3 col-md-6 core-team1 mb-4" onClick={()=> scrollToUpward('Astha Gupta')}>
                         <img className='member' src={Core4} alt="" />
                         <h5 className='text-center mt-3 mb-0'>Astha Gupta </h5>
                         <p className='text-center'>Design, Australia</p>
-                        <img src={Social} alt="" />
+                        {/* <img src={Social} alt="" /> */}
                     </div>
                     </div>
                 </div>

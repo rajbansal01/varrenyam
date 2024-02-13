@@ -6,7 +6,7 @@
 .banner-wrapper {
     position: relative;
     z-index: 1;
-    padding-top: 90px;
+    padding-top: 110px;
   }
   .banner-wrapper-content {
     max-width: 650px;
@@ -57,7 +57,7 @@ line-height: 108%;
 font-family: "IBM Plex Sans";
 font-size: 25px;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 line-height: 108%; 
   }
   .banner-wrapper-image .row{
@@ -69,11 +69,31 @@ text-align: center;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #EA7600;
-    border-radius: 8px;
+    border-radius: 12px;
     border-color: #EA7600;
+    height: 7%;
+    font-size: 16px;
+    width: 15%;
+    box-shadow:1px 2px 3px -1px inset #f5f9fa;
+  }
+
+  @media screen and (max-width:1199px){
+    .banner-wrapper-image .btn{
+      position: absolute;
+      top: 53%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #EA7600;
+      border-radius: 12px;
+      border-color: #EA7600;
+      height: 10%;
+      font-size: 16px;
+      width: 21%;
+      box-shadow:1px 2px 8px -1px inset #f5f9fa;
+    }
   }
    
-  @media only screen and (min-width:426px) and  (max-width: 991px){
+  @media only screen and (min-width:600px) and  (max-width: 991px){
     .banner-wrapper-image h2{
       position: absolute;
       top: 30%;
@@ -95,7 +115,7 @@ text-align: center;
   /* font-family: "IBM Plex Sans"; */
   font-size: 18px !important;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 108%; 
     }
     .banner-wrapper-image .row{
@@ -108,13 +128,17 @@ text-align: center;
       width: 16% !important;
       transform: translate(-50%, -50%);
       background-color: #EA7600;
-      border-radius: 8px;
+      border-radius: 12px;
       border-color: #EA7600;
-      font-size: 9px !important;
+      font-size: 14px !important;
+      width: 26% !important;
+      height: 31px !important;
+      box-shadow:1px 2px 8px -1px inset #f5f9fa;
     }
   }
 
-  @media only screen and (max-width: 425px){
+
+  @media only screen and (max-width: 550px){
     .banner-wrapper-image h2{
       position: absolute;
       top: 30%;
@@ -133,9 +157,9 @@ text-align: center;
       left: 50%;
       transform: translate(-50%, -50%);
       color: #FFF;
-  font-size: 11px !important;
+  font-size: 10px !important;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 108%; 
     }
     .banner-wrapper-image .row{
@@ -143,14 +167,74 @@ text-align: center;
     }
     .banner-wrapper-image .btn{
       position: absolute;
-      top: 62% !important;
+      top: 60% !important;
       left: 50%;
-      width: 34% !important;
       transform: translate(-50%, -50%);
       background-color: #EA7600;
-      border-radius: 8px;
+      border-radius: 12px;
       border-color: #EA7600;
       font-size: 9px !important;
+      width: 29% !important;
+      height: 25px !important;
+      box-shadow:1px 2px 8px -1px inset #f5f9fa;
+    }
+  }
+  @media only screen and (max-width: 361px){
+
+    .banner-wrapper-image .btn{
+      position: absolute;
+      top: 60% !important;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #EA7600;
+      border-radius: 12px;
+      border-color: #EA7600;
+      font-size: 9px !important;
+      width: 35% !important;
+      height: 25px !important;
+      box-shadow:1px 2px 8px -1px inset #f5f9fa;
+    }
+  }
+
+  @media screen and (max-width:304px){
+    .banner-wrapper-image h2{
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFF;
+  font-family: "IBM Plex Sans";
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 108%; 
+    }
+    .banner-wrapper-image p{
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFF;
+  font-size: 9px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 108%; 
+    }
+    .banner-wrapper-image .row{
+  text-align: center;
+    }
+    .banner-wrapper-image .btn{
+      position: absolute;
+      top: 60% !important;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #EA7600;
+      border-radius: 12px;
+      border-color: #EA7600;
+      font-size: 8px !important;
+      width: 38% !important;
+      height: 21px !important;
+      box-shadow:1px 2px 8px -1px inset #f5f9fa;
     }
   }
 
@@ -188,7 +272,7 @@ text-align: center;
     bottom: 30% !important;
   }
 }
-@media only screen and (max-width:425px){
+@media only screen and (max-width:550px){
   .our-firm-content-parts{
     position: relative;
     bottom: 0px !important;
@@ -239,7 +323,7 @@ text-align: center;
   .about-us .about-us-image img{
     width: 100%;
   }
-  @media only screen and (min-width: 375px) and (max-width: 768px){
+  @media only screen and (min-width: 375px) and (max-width: 991px){
     .about-us .about-us-image img{
       width: 50%;
       display: flex;
@@ -249,6 +333,11 @@ text-align: center;
       margin: auto;
       margin-bottom: 1rem;
     }
+  }
+  .about-us-content{
+    margin: 20px;
+    /* display: flex; */
+    align-items: center;
   }
 
   .about-us-content img{
@@ -305,8 +394,8 @@ font-weight: 400;
   padding-bottom: 20px 
 }
 .expertise-content .row .expertise-parts{
-  margin-bottom: 15px;
-  padding: 50px 20px 35px 20px;
+  margin-bottom: 0px ;
+  padding: 16px 20px 16px 20px;
 }
 
 .expertise-content .row :hover{
@@ -509,8 +598,21 @@ font-weight: 400;
   border-radius: 35px;
   padding-left: 10px;
   padding-right: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  height: 300px;
 }
+
+@media screen and (max-width: 767px){
+  .str-content{
+   padding: 0px !important;
+  }
+  .str-content p{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  
+}
+
 .card-white{
   background-color: #fff;
   padding-bottom: 20px;
@@ -531,6 +633,13 @@ font-weight: 400;
   margin-bottom: 10px;
 }
 
+.records h3{
+  font-family: 'IBM Plex Sans';
+  font-weight: 600;
+  color: rgba(10, 9, 9, 1);
+  text-align: center;
+}
+
 .our_records .records h3{
   text-align: center;
   padding: 5rem 0rem 2rem 0rem;
@@ -540,6 +649,16 @@ font-weight: 400;
   background-repeat: no-repeat;
   position: relative;
   bottom: 10;
+}
+@media screen and ( max-width:991px){
+  .our_recordsImage img{
+    width: 65% !important;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+  
 }
 
 .our_records_content .first{
@@ -567,6 +686,7 @@ font-weight: 600;
   -webkit-background-clip: text; 
   display: flex;
   flex: end;
+  padding: 0px 0px 0px 40px;
 }
 
 .clients .container{
@@ -582,7 +702,7 @@ font-weight: 600;
 
 .clients-image h3{
   color: white;
-  text-align: right;
+  text-align: center;
   font-family: "IBM Plex Sans";
 font-weight: 700;
 line-height: 132.561%;
@@ -599,23 +719,44 @@ margin: 0px;
 }
 .clients-image p{
   color: #FFF;
-text-align: right;
+text-align: center;
 font-family: "IBM Plex Sans";
 /* font-size: 22px; */
 font-style: normal;
 font-weight: 500;
 line-height: 132.561%; /* 29.163px */
 }
+
+@media screen and (max-width:363px) {
+  .clients-image h3{
+  margin-top: 20px;
+  text-align: center;
+  }
+  .clients-image p{
+text-align: center;
+  }
+  
+  
+}
 .clients-image img{
   width: 90%;
-  float: right;
+  /* float: right; */
+}
+.clients-content {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .clients-content .content{
   border-radius: 9.509px;
 background: #FFF;
 text-align: center;
-height: 80px;
+height: 95px;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Distribute content evenly */
+    margin-bottom: 20px;
 }
 .clients-content .content p{
   text-align: center;
@@ -627,6 +768,9 @@ font-style: normal;
 font-weight: 500;
 line-height: 132.561%; /* 13.532px */
 text-transform: capitalize;
+margin-bottom: 10px;
+/* position: relative; */
+/* bottom: 0px; */
 }
 .clients-content .content img{
   padding-top: 10px;
@@ -642,6 +786,28 @@ text-transform: capitalize;
   padding: 2.5rem;
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+
+@media screen and (max-width:363px){
+  .clients .container{
+    padding: .5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .clients-content {
+    padding-top: 2rem !important;
+}
+.clients-content .content {
+  margin: 0.5rem;
+  padding: 0;
+}
+/* .clients-image img {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+} */
+  
 }
 
 .clients-content{

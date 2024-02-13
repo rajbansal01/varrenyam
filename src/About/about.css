@@ -88,6 +88,13 @@ font-size: 12px
 box-shadow: 10px 10px 5px -4px rgba(232,232,232,1);
 }
 
+@media screen and (max-width: 575px){
+    .served-parts img{
+        width: 8% !important;
+    }
+    
+}
+
 /* .row.industry-we-served .col-lg-2:first-child .served-parts {
     border-left: none;
 } */

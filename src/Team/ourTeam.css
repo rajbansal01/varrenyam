@@ -133,12 +133,26 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width:991px) {
+    .core-team .member{
+        width: 50% !important;
+    }
+    
+}
 .core-team .member{
     width: 95%;
 }
 .advisory-team .member{
     width: 95%;
 }
+@media screen and (max-width:991px) {
+    .advisory-team .member{
+        width: 50% !important;
+    }
+    
+}
+
 .advisory-team img{
      /* width: 95%; */
      margin: auto;
@@ -151,6 +165,15 @@
 }
 .core-name img{
     width:70%
+}
+@media screen and (max-width:991px) {
+    .core-name img{
+        width: 35% !important;
+        /* margin: auto;
+        display: flex;
+        justify-content: center; */
+    }
+    
 }
 .core-name .social{
     width:20% !important
@@ -184,6 +207,13 @@
 .members .core-team1 .member{
 width: 95%;
 }
+@media screen and (max-width:991px) {
+    .members .core-team1 .member{
+        width: 50% !important;
+        }
+    
+}
+
 .our-team-image .centered {
     position: absolute;
     top: 60%;
@@ -197,7 +227,7 @@ width: 95%;
   @media screen and (max-width:434px) {
     .our-team-image .centered {
         position: absolute;
-        top: 60%;
+        top: 69%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
@@ -220,7 +250,7 @@ width: 95%;
   @media screen and (max-width:434px) {
     .core-image .centered {
         position: absolute;
-        top: 60%;
+        top: 67%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;

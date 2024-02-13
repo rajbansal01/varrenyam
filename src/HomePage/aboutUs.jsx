@@ -4,7 +4,7 @@ import TickWhite from '../Assets/tickWhite.png'
 
 function AboutUs(){
     return (
-        <div className="about-us my-5 ">
+        <div className="about-us">
             <div className="container">
                 {/* <h2>About <span>Us</span></h2> */}
             </div>
@@ -15,7 +15,7 @@ function AboutUs(){
                 <img src={AboutUsImage} alt="" />
               </div>
                         </div>
-                        <div className="col-lg-8">
+                        <div className="col-lg-8 d-flex align-items-center">
                             <div className="about-us-content">
                                 <div className="vision" id="image-container">
                                 <div className="row row-cols-2" >

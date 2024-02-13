@@ -7,7 +7,6 @@ import Core5 from '../Assets/core5.png'
 import Core6 from '../Assets/core6.png'
 import Social from '../Assets/socialId.png'
 import '../Team/ourTeam.css'
-import { Link, NavLink } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 
 
@@ -25,48 +24,48 @@ function OurTeam(){
                     </div>
 
                 </div>
-                <div className="row core-team my-3">
-                    <h1 className='fw-bold mb-5'>Core Team</h1>
+                <div className="row core-team mt-5">
+                    <h2 className='fw-bolder mb-4'>Core Team</h2>
 
-                    <div className="col-lg-3 col-md-6 core-team1" onClick={()=>navigate('/core1', { state:  "Mahendrakhandelwal"  }) }>
+                    <div className="col-lg-3 col-md-6 core-team1 mb-5" onClick={()=>navigate('/core1', { state:  "Mahendrakhandelwal"  }) }>
                         <img className='member' src={Core1} alt="" />
                         <h5 className='text-center mt-3 mb-0'>Mahendra khandelwal </h5>
                         <p className='text-center'>Design, Australia</p>
-                        <img src={Social} alt="" />
+                        {/* <img src={Social} alt="" /> */}
                     </div>
-                    <div className="col-lg-3 col-md-6 core-team1" onClick={()=>navigate('/core1', { state: "MohitBansal"  }) }>
+                    <div className="col-lg-3 col-md-6 core-team1 mb-5" onClick={()=>navigate('/core1', { state: "MohitBansal"  }) }>
                         <img className='member' src={Core2} alt="" />
                         <h5 className='text-center mt-3 mb-0'>Mohit Bansal</h5>
                         <p className='text-center'>Design, Australia</p>
-                        <img src={Social} alt="" />
+                        {/* <img src={Social} alt="" /> */}
                     </div>
-                    <div className="col-lg-3 col-md-6 core-team1" onClick={()=>navigate('/core1', { state: "RaviKantBaheti"  }) }>
+                    <div className="col-lg-3 col-md-6 core-team1 mb-5" onClick={()=>navigate('/core1', { state: "RaviKantBaheti"  }) }>
                         <img className='member' src={Core3} alt="" />
                         <h5 className='text-center mt-3 mb-0'>Ravi Kant Baheti </h5>
                         <p className='text-center'>Design, Australia</p>
-                        <img src={Social} alt="" />
+                        {/* <img src={Social} alt="" /> */}
                     </div>
-                    <div className="col-lg-3 col-md-6 core-team1" onClick={()=>navigate('/core1', { state: "AsthaGupta" }) }>
+                    <div className="col-lg-3 col-md-6 core-team1 mb-5" onClick={()=>navigate('/core1', { state: "AsthaGupta" }) }>
                         <img className='member' src={Core4} alt="" />
                         <h5 className='text-center mt-3 mb-0'>Astha Gupta </h5>
                         <p className='text-center'>Design, Australia</p>
-                        <img src={Social} alt="" />
+                        {/* <img src={Social} alt="" /> */}
                     </div>
                 </div>
 
-                <div className="row advisory-team my-5">
-                <h1 className='fw-bold my-5'>Advisory Team</h1>
-                <div className="col-lg-3 col-md-6 advisory1" onClick={()=>navigate('/core1', { state:  "MUKESHKUMARJAIN"  }) }>
+                <div className="row advisory-team">
+                <h2 className='fw-bolder mb-5'>Advisory Team</h2>
+                <div className="col-lg-3 col-md-6 advisory1 mb-5" onClick={()=>navigate('/core1', { state:  "MUKESHKUMARJAIN"  }) }>
                         <img className='member' src={Core5} alt="" />
                         <h5 className='text-center mt-3 mb-0'>Mukesh Kumar Jain</h5>
                         <p className='text-center'>Design, Australia</p>
-                        <img src={Social} alt="" />
+                        {/* <img src={Social} alt="" /> */}
                     </div>
-                    <div className="col-lg-3 col-md-6 advisory1" onClick={()=>navigate('/core1', { state:  "RAKESHKRAWAL"  }) }>
+                    <div className="col-lg-3 col-md-6 advisory1 mb-5" onClick={()=>navigate('/core1', { state:  "RAKESHKRAWAL"  }) }>
                         <img className='member' src={Core6} alt="" />
                         <h5 className='text-center mt-3 mb-0'>Rakesh K Rawal</h5>
                         <p className='text-center'>Design, Australia</p>
-                        <img src={Social} alt="" />
+                        {/* <img src={Social} alt="" /> */}
                     </div>
                 </div>
         </div>

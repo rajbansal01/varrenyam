@@ -11,8 +11,8 @@ function Strengths() {
         <div className="col-12 heading">
           <h2 className="text-white">Our Strengths</h2>
         </div>
-        <div className="col-12 px-5">
-          <p className="mx-3 my-3 text-white"> A leading consulting firm, we specialize in providing strategic solutions, leveraging industry expertise to drive client success and innovation.</p>
+        <div className="col-12 px-5 str-content">
+          <p className="mx-5 my-3 text-white"> A leading consulting firm, we specialize in providing strategic solutions, leveraging industry expertise to drive client success and innovation.</p>
         </div>
       </div>
       <div className="row my-5">

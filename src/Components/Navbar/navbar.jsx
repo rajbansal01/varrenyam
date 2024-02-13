@@ -35,7 +35,7 @@ function CustomNavbar(){
     
     return (
         <div className="navbar-area">
-        <div className="container d-flex flex-row justify-content-between align-items-center">
+        <div className="container-fluid d-flex flex-row justify-content-between align-items-center px-4">
 
             <div className="navbar-brand" style={{ flex: '2%' }}>
                 <Link to={"/"}>
@@ -66,14 +66,15 @@ function CustomNavbar(){
                     <AiOutlineClose className='close-icon' onClick={handleClose} />
                 </div>
                 <ul className='sidebar-list'>
-                    <li><NavLink to={'/'} onClick={handleClose}>About us</NavLink></li>
-                    <li><NavLink to={'/aboutNew'} onClick={handleClose}>Team</NavLink></li>
+                    <li><NavLink to={'/'} onClick={handleClose}>Home</NavLink></li>
+                    <li><NavLink to={'/about'} onClick={handleClose}>About us</NavLink></li>
+                    <li><NavLink to={'/ourTeam'} onClick={handleClose}>Team</NavLink></li>
                     
-                    <li><NavLink to={"/compliances"}>Expertise</NavLink></li>
-                <li><NavLink to={"/compliances"}>Investment  Strategy</NavLink></li>
+                    <li><NavLink to={""}>Expertise</NavLink></li>
+                <li><NavLink to={""}>Investment  Strategy</NavLink></li>
                     
-                <li><NavLink to={"/sourcing-partners"}>Pressroom</NavLink></li>
-                <button type="button" class="btn">Book A Free Consultant</button>
+                <li><NavLink to={'/bookConsultation'} onClick={()=> scrollToUpward('Book A Free consultant')}>Pressroom</NavLink></li>
+                <li><NavLink to={'/bookConsultation'} onClick={()=> scrollToUpward('Book A Free consultant')}><button type="button" class="btn">Book A Free Consultant</button></NavLink></li>
                 </ul>
             </div>
         </div>

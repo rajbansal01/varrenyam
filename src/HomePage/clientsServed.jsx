@@ -36,7 +36,7 @@ function Clients(){
                             </div>
                             <div className="content">
                         <img src={Client3} alt="" />
-                            <p>Filatex India LTD.</p>
+                            <p className='align-bottom'>Filatex India LTD.</p>
                                 
                             </div>
                             <div className="content">
@@ -79,7 +79,7 @@ function Clients(){
                             <p>Jyoti Structures Limited LTD.</p>
                                 
                             </div>
-                            <div className="content">
+                            <div className="content d-flex align-items-center">
                         <img src={Client12} alt="" />
                             <p>Prius group of Company</p>
                                 
@@ -108,7 +108,7 @@ function Clients(){
                 <div className="clients-image"> 
                     <h3>Clients <span>We Served</span></h3>
                     <p>Trusted by over 50+ business world wide</p>
-                    <img src={ClientsImage} alt="" />
+                    <img className ='mt-5' src={ClientsImage} alt="" />
                 </div>
                 </div>
                 </div>

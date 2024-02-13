@@ -49,14 +49,14 @@ function Footer(){
                             <div className="row">
 
                             {/* <img src={Phone} alt="" />   */}
-                                <a><Link to={""}>Unlock A Seamless Financial Journey With Our One -Stop Consulting Hub</Link></a>
+                                <a className='pe-5' href="#"><Link to={""}>Unlock A Seamless Financial Journey With Our One -Stop Consulting Hub</Link></a>
                             </div>
                             <br />
                             <div className="row row-cols-2 align-items-center">
                                 <img src={Phone} alt="" /> 
                                 <div className="number">
-                                <a><Link to={""}>+91 9958302198 </Link></a>
-                                <a><Link to={""}>+91 9560822222</Link></a>
+                                <a href="#"><Link to={""}>+91 9958302198 </Link></a>
+                                <a href="#"><Link to={""}>+91 9560822222</Link></a>
                             </div> 
                             </div>
                             
@@ -76,27 +76,46 @@ function Footer(){
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-sm-6 col-md-6">
+                    <div className="col-lg-4 col-sm-12 col-md-12">
                         <div className="single-footer-widget">
                             <h3>Contact Us</h3>
                             <ul className="list">
-                            <div className="row row-cols-2 align-items-flex-start">
-                                <img src={Map} alt="" />  
-                                <div className="location">
-                                <a><Link to={""}>Plot No. 543, Block A, Sushant Lok-1, Gurugram, Haryana-122 002
-                                </Link></a>
-                                <a><Link to={""}>Unit No B 404 cello Triumph, IB Patel Road, Goregaon(East),Mumbai-400 063</Link></a>
+<li>
+
+    <div className="headig d-flex">
+        <div className="img mx-3">
+            <img src={Map} alt="" />
+        </div>
+        <div className="text">
+            <p>
+            Plot No. 543, Block A, Sushant Lok-1, Gurugram, Haryana-122 002
+            <br />
+            Unit No B 404 cello Triumph, IB Patel Road, Goregaon(East),Mumbai-400 063
+            </p>
+        </div>
+    </div>
+</li>
+                            {/* <div className="row ">
+                                <div className="col px-0">
+                                <img className="mapp" src={Map} alt="" /> 
                                 </div>
+                                <div className="col px-0">
+                                <a className='' href="#"><Link to={""}>Plot No. 543, Block A, Sushant Lok-1, Gurugram, Haryana-122 002
+                                </Link></a>
+                                <br />
+                                <br />
+                                <a href="#"><p><Link to={""}>Unit No B 404 cello Triumph, IB Patel Road, Goregaon(East),Mumbai-400 063</Link></p></a>
                                
+                                </div>                               
 
-                            </div>
-                            <div className="row row-cols-2 align-items-flex-start">
-                                <img src={Globe} alt="" />  
-                                <a><Link to={""}>khandelwal@varrenyam.net.in
+                            </div> */}
+                            {/* <div className="row row-cols-2 align-items-flex-center">
+                                <img className="globee" src={Globe} alt="" />  
+                                <a href="#"><Link to={""}>khandelwal@varrenyam.net.in
                                 </Link></a>
                                
 
-                            </div>
+                            </div> */}
                             </ul>
                         </div>
                     </div>
