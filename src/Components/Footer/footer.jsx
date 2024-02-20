@@ -4,6 +4,8 @@ import '../Footer/footer.css'
 import Phone from '../../Assets/phone.png'
 import Map from '../../Assets/map.png'
 import Globe from '../../Assets/globe.png'
+// import Email from '../../Assets/email.png'
+import Email from '../../Assets/email.svg'
 
 function Footer(){
 
@@ -55,9 +57,13 @@ function Footer(){
                             <div className="row row-cols-2 align-items-center">
                                 <img src={Phone} alt="" /> 
                                 <div className="number">
-                                <a href="#"><Link to={""}>+91 9958302198 </Link></a>
-                                <a href="#"><Link to={""}>+91 9560822222</Link></a>
+                                <a href="#"><Link to={""}>+91 9599588308 </Link></a>
+                                <a href="#"><Link to={""}>+91 9958302198</Link></a>
                             </div> 
+                            </div>
+                            <div className="mail row row-cols-2 align-items-center">
+                                <img src={Email} alt="" />
+                            <a href="#"><Link to={""} className="text-white">md@varrenyam.com</Link></a>
                             </div>
                             
 
@@ -68,10 +74,10 @@ function Footer(){
                             <h3>Quick Links</h3>
                             <ul className="list">
                                 <li><Link to={'/about'} onClick={()=> scrollToUpward('Home')}>About Us</Link></li>
-                                <li><Link to={""}>Carrer</Link></li>
+                                {/* <li><Link to={""}>Carrer</Link></li> */}
                                 <li><Link to={'/ourTeam'} onClick={()=> scrollToUpward('Team')}>Our Team</Link></li>
-                                <li><Link to={""}>Record And Strength</Link></li>
-                                <li><Link to={""}>Press Room</Link></li>
+                                {/* <li><Link to={""}>Record And Strength</Link></li> */}
+                                {/* <li><Link to={""}>Press Room</Link></li> */}
                                 <li><Link to={""}>Expertise</Link></li>
                             </ul>
                         </div>
@@ -88,34 +94,12 @@ function Footer(){
         </div>
         <div className="text">
             <p>
-            Plot No. 543, Block A, Sushant Lok-1, Gurugram, Haryana-122 002
-            <br />
-            Unit No B 404 cello Triumph, IB Patel Road, Goregaon(East),Mumbai-400 063
+            Unit no 408, 409, Fourth floor,  Enkay Centre , Wing A, Plot no A, Vanijya Nikunj, Udyog Vihar, PHASE V, Gurgaon 122016  Haryana
+            
             </p>
         </div>
     </div>
 </li>
-                            {/* <div className="row ">
-                                <div className="col px-0">
-                                <img className="mapp" src={Map} alt="" /> 
-                                </div>
-                                <div className="col px-0">
-                                <a className='' href="#"><Link to={""}>Plot No. 543, Block A, Sushant Lok-1, Gurugram, Haryana-122 002
-                                </Link></a>
-                                <br />
-                                <br />
-                                <a href="#"><p><Link to={""}>Unit No B 404 cello Triumph, IB Patel Road, Goregaon(East),Mumbai-400 063</Link></p></a>
-                               
-                                </div>                               
-
-                            </div> */}
-                            {/* <div className="row row-cols-2 align-items-flex-center">
-                                <img className="globee" src={Globe} alt="" />  
-                                <a href="#"><Link to={""}>khandelwal@varrenyam.net.in
-                                </Link></a>
-                               
-
-                            </div> */}
                             </ul>
                         </div>
                     </div>
@@ -124,7 +108,7 @@ function Footer(){
             </div>
                 <div className="horizontal-line"><hr /></div>
                 <div className="copyright-area">
-                <span>© Copyright 2023 Superline Fininvest Pvt. Ltd   | All Rights Reserved</span>
+                <span>Copyright @2024 All rights reserved.</span>
                 </div>
 
             

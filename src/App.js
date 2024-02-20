@@ -7,17 +7,19 @@ import About from '../src/About/about'
 import BookConsultation from '../src/BookConsultation/bookConsultation'
 import OurTeam from '../src/Team/ourTeam'
 import Core1 from '../src/Team/core1'
+import Expertise from './HomePage/expertise';
 
 function App() {
   return (
     <div className="App">
       <CustomNavbar />
       <Routes>
-        <Route index element={<Homepage />} />
-        <Route path='/about' element={<About/>}/>
-        <Route path='/bookConsultation' element={<BookConsultation/>}/>
-        <Route path='/ourTeam' element={<OurTeam/>}/>
-        <Route path='/core1' element={<Core1/>}/>
+        <Route exact index  element={<Homepage />} />
+        <Route exact path='/about'  element={<About/>}/>
+        <Route exact path='/expertise'  element={<Expertise/>}/>
+        <Route exact path='/bookConsultation'  element={<BookConsultation/>}/>
+        <Route exact path='/ourTeam'  element={<OurTeam/>}/>
+        <Route exact path='/core1'  element={<Core1/>}/>
       </Routes>
     
       <Footer />

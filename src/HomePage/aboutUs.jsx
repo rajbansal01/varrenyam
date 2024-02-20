@@ -1,8 +1,11 @@
 import AboutUsImage from '../Assets/aboutUs.png'
 import TickGreen from '../Assets/tickGreen.png'
 import TickWhite from '../Assets/tickWhite.png'
+import { Link, NavLink } from 'react-router-dom';
+import { useState } from 'react';
 
 function AboutUs(){
+    
     return (
         <div className="about-us">
             <div className="container">
@@ -40,8 +43,9 @@ function AboutUs(){
                                 <span>To emerge as the premier ‘One Stop Financial Solution Provider' specializing in the resolution of distressed assets.
                                 </span>
                                 <br />
-                                <span>Offering comprehensive expertise to navigate and optimize financial landscapes.</span>
+                                <span className='mb-5'>Offering comprehensive expertise to navigate and optimize financial landscapes.</span>
                                 </div>
+                                <NavLink to={'/about'} onClick={()=> window.scrollTo({ top: 0, behavior: 'smooth' })} ><p className='my-3' to >Learn More..</p></NavLink>
 
                                 
                 {/* <button type="button" class="btn">Learn more</button> */}

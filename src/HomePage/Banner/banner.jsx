@@ -2,6 +2,7 @@ import BannerBackgroundImage from "../../Assets/bannerBackgroundImage.png"
 import "../Banner/banner.css";
 import BannerBorderImage from '../../Assets/bannerBorderImage.png'
 import BannerImage from '../../Assets/bannerImage.png'
+import {Link} from 'react-router-dom'
 // import BannerImage from '../../Assets/bannerImage.svg'
 
 function Banner() {
@@ -10,24 +11,17 @@ function Banner() {
       <div className="banner-wrapper">
         <div className="container">
           <div className="banner-wrapper-image" style={{position:'relative'}}>
-
-          {/* <img  src={BannerBackgroundImage} alt="" style={{objectFit:'cover',width:'100%',}} /> */}
           <img  src={BannerImage} alt="" style={{objectFit:'cover',width:'100%',}} />
-          {/* <img className="border-image" src={BannerBorderImage} alt="" style={{objectFit:'cover',width:'96%',position:'absolute',left:'0rem',top:'2.8rem'}} /> */}
 
           <div className="row">
           <h2 >Welcome to Varrenyam</h2>
           <p>Your Premier Partner in Holistic Financial Solutions</p>
           </div>
-          <button type="button" class="btn btn-primary btn-sm">Book a Consultation</button>
+          <Link to={'/bookConsultation'}><button type="button" class="btn btn-primary btn-sm" >Book a Consultation</button></Link>
           </div>
           </div>
       </div>
-
-        {/* <div className="container"> */}
-          <div className="our-firm" 
-          // style={{position:'absolute',bottom:'10rem',left:'7rem',width:'68%',borderRadius:'0px 50px 0px 0px'}}
-          >
+          <div className="our-firm" >
           <div className="our-firm-content">
             <div className="container">
 
@@ -65,11 +59,6 @@ function Banner() {
             </div>
           </div>
         </div>
-      {/* </div> */}
-          
-        
-
-      
     </div>
   );
 }

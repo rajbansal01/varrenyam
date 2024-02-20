@@ -76,6 +76,11 @@ text-align: center;
     width: 15%;
     box-shadow:1px 2px 3px -1px inset #f5f9fa;
   }
+  .banner-wrapper-image .btn-primary:active{
+    background-color: #EA7600;
+
+
+  }
 
   @media screen and (max-width:1199px){
     .banner-wrapper-image .btn{
@@ -339,6 +344,9 @@ text-align: center;
     /* display: flex; */
     align-items: center;
   }
+  .about-us-content a{
+    color: #ED8720;
+  }
 
   .about-us-content img{
     width: 10%;
@@ -368,7 +376,7 @@ font-weight: 400;
   font-weight: 600;
   color: rgba(10, 9, 9, 1);
   text-align: center;
-  margin-top: 70px;
+  padding-top: 50px;
 }
 .expertise .expertise-title span{
   font-family: 'Zilla Slab';

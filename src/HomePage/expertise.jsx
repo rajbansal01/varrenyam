@@ -9,7 +9,7 @@ import expertise7 from '../Assets/expertise7.png'
 import expertise8 from '../Assets/expertise8.png'
 function Expertise(){
 return(
-    <div className="expertise">
+    <div className="expertise pt-5" id='exp'>
         <div className="container">
             <div className="expertise-title">
                 <h3>Our Expertise</h3>
@@ -21,8 +21,7 @@ return(
                     <div className="expertise-parts">
                     <img src={expertise1} alt="" />
                     <span>Restructuring And Debt Solution</span>
-                    <p>There are many variations of the passages of lorem Ipsum from 
-available, majority.</p>
+                    <p>Assisting lenders to determine option to solve stress via restructuring , sale to Arc, and sale of assets</p>
 
                     </div>
                     </div>
@@ -30,8 +29,7 @@ available, majority.</p>
                     <div className="expertise-parts">
                     <img src={Img2} alt="" />
                     <span>Sell And Buy Advisory</span>
-                    <p>There are many variations of the passages of lorem Ipsum from 
-available, majority.</p>
+                    <p>Assisting lenders to find a buyer for 51% + shareholding in the company, non-core assets.</p>
 
                     </div>
                     </div>
@@ -39,8 +37,7 @@ available, majority.</p>
                     <div className="expertise-parts">
                     <img src={expertise3} alt="" />
                     <span>Funding</span>
-                    <p>There are many variations of the passages of lorem Ipsum from 
-available, majority.</p>
+                    <p>Funding of distressed asset, acquisitions & turnaround. Project funding, Growth funding</p>
 
                     </div>
                     </div>
@@ -48,8 +45,7 @@ available, majority.</p>
                     <div className="expertise-parts">
                     <img src={expertise4} alt="" />
                     <span>Asset Specialized & Monitoring</span>
-                    <p>There are many variations of the passages of lorem Ipsum from 
-available, majority.</p>
+                    <p>Assisting banks in monitoring the account performance and achievement milestones.</p>
 
                     </div>
                     </div>
@@ -57,8 +53,7 @@ available, majority.</p>
                     <div className="expertise-parts">
                     <img src={expertise5} alt="" />
                     <span>Independent Business Review</span>
-                    <p>There are many variations of the passages of lorem Ipsum from 
-available, majority.</p>
+                    <p>Assisting lenders to determine viability of business</p>
 
                     </div>
                     </div>
@@ -66,8 +61,7 @@ available, majority.</p>
                     <div className="expertise-parts">
                     <img src={expertise6} alt="" />
                     <span>Performance Improvement</span>
-                    <p>There are many variations of the passages of lorem Ipsum from 
-available, majority.</p>
+                    <p>Analysis of operational efficiency & cost reduction program</p>
 
                     </div>
                     </div>
@@ -75,8 +69,7 @@ available, majority.</p>
                     <div className="expertise-parts">
                     <img src={expertise7} alt="" />
                     <span>Interim Management / ASM</span>
-                    <p>There are many variations of the passages of lorem Ipsum from 
-available, majority.</p>
+                    <p>Professional management to run the aﬀairs of the company till divested</p>
 
                     </div>
                     </div>
@@ -85,8 +78,7 @@ available, majority.</p>
                     <div className="expertise-parts">
                     <img src={expertise8} alt="" />
                     <span>Insolvency Service & Advisory</span>
-                    <p>There are many variations of the passages of lorem Ipsum from 
-available, majority.</p>
+                    <p>End to end services in resolving cases under IBC Forensic audit Transaction Audit Serves</p>
 
                     </div>
                     </div>

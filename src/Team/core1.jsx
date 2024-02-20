@@ -2,7 +2,7 @@ import { useState,useEffect } from 'react';
 import AboutImage from '../Assets/aboutFront.png'
 import CoreImage1 from '../Assets/core.png'
 import Core2 from '../Assets/core2.png'
-import Core3 from '../Assets/core3.png'
+import Ravi from '../Assets/ravi.png'
 import Core4 from '../Assets/core4.png'
 import Core5 from '../Assets/core5.png'
 import Core6 from '../Assets/core6.png'
@@ -34,10 +34,10 @@ console.log(state)
     // const names=['Mahendra khandelwal','Mohit']
     return(
         <>
-     {   key==='Mahendrakhandelwal'?<CoreData image={CoreImage1} name={'Mahendra khandelwal'} designation={'Chartered Accountant'} bio={'With an illustrious career spanning over three decades, Mr. Mahender Khandelwal became a Chartered Accountant in 1991, evolving into a seasoned senior management and financial professional. Specializing in structuring and financing through debt and equity instruments, he excels in managing and turning around special situations and insolvency scenarios across diverse industries.'} competencies={competencies1}/>:''} 
+     {   key==='Mahendrakhandelwal'?<CoreData image={CoreImage1} name={'Mahendra khandelwal'} designation={'Managing Director'} mail={'khandelwalmahendar2@gmail.com'} bio={'With an illustrious career spanning over three decades, Mr. Mahender Khandelwal became a Chartered Accountant in 1991, evolving into a seasoned senior management and financial professional. Specializing in structuring and financing through debt and equity instruments, he excels in managing and turning around special situations and insolvency scenarios across diverse industries.'} competencies={competencies1}/>:''} 
      {key==='MohitBansal'?<CoreData image={Core2} name={'Mohit Bansal'} designation={'Chartered Accountant'} bio={'Mr. Mohit Bansal, Founder & MD at Credhub Technologies & Co-Founder at Phocket Infotech Private Limited, is an NSIT alumni in IT with more than 12 years of experience in Technology & Software Development. Leading fintech startup for short-term loans, he has worked for brands like Magicbricks, Quara Holding, Wasalt, and has strong experience in Fintech Products such as eWallet,Digital Lending Platform, Real-Estate & Valuation Platform, Payments & Home Finance digital Products.'} competencies={competencies2}/>:''}
-     {   key==='RaviKantBaheti'?<CoreData image={Core3} name={'Ravi Kant Baheti'} designation={'PROFESSIONAL PROFILE OVERVIEW'} bio={'With over 25 years of distinguished experience in the BFSI sector, Ravi Kaant Baheti is a seasoned professional with a comprehensive background as a Chartered Accountant. He has held key roles as CFO, Financial Controller, and Company Secretary, showcasing expertise across NBFCs, Insurance, HFCs, Merchant Banking, Mutual Funds, Securities Broker, and Wealth Management'} competencies={competencies3}/>:''}
-     {   key==='AsthaGupta'?<CoreData image={Core4} name={'Astha Gupta'} designation={'PROFESSIONAL PROFILE OVERVIEW'} bio={'Astha Gupta brings with her almost a decade of expertise in consulting and banking. She is a Chartered Accountant and an honors graduate from Delhi University'} competencies={competencies4}/>:''}
+     {   key==='RaviKantBaheti'?<CoreData image={Ravi} name={'Ravi Kant Baheti'} designation={'Partner'} mail={'ravi@varrenyam.com'} bio={'With over 25 years of distinguished experience in the BFSI sector, Ravi Kaant Baheti is a seasoned professional with a comprehensive background as a Chartered Accountant. He has held key roles as CFO, Financial Controller, and Company Secretary, showcasing expertise across NBFCs, Insurance, HFCs, Merchant Banking, Mutual Funds, Securities Broker, and Wealth Management'} competencies={competencies3}/>:''}
+     {   key==='AsthaGupta'?<CoreData image={Core4} name={'Astha Gupta'} designation={'Director'} mail={'astha.gupta@varrenyam.com'} bio={'Astha Gupta brings with her almost a decade of expertise in consulting and banking. She is a Chartered Accountant and an honors graduate from Delhi University'} competencies={competencies4}/>:''}
      {   key==='MUKESHKUMARJAIN'?<CoreData image={Core5} name={'MUKESH KUMAR JAIN'} designation={'PROFESSIONAL PROFILE OVERVIEW'} bio={'With over 32 years of distinguished experience, Mr. Mukesh Kumar Jain serves as the Co-founder and Partner at M/s MKRJ & Co. (Chartered Accountants). His expertise spans Finance, Accounting,Regulatory Compliance, Strategic Planning, Credit Facilities, Debt/Equity Restructuring, and more. Holding credentials as a registered Insolvency Professional, he showcases specialized proficiency in resolving intricate financial matters.'} competencies={competencies5}/>:''}
      {   key==='RAKESHKRAWAL'?<CoreData image={Core6} name={'RAKESH K RAWAL'} designation={'Rakesh K Rawal is a dynamic and result-oriented leader with 27 years of leading expertise in high-paced organizations and multiple ministries within the Government of India. He demonstrates a strategic approach, utilizing keen analysis and insights to drive organizational improvements and implement best practices'} competencies={competencies6}/>:''}
 
@@ -48,7 +48,7 @@ console.log(state)
 
 export default Core1
 
-function CoreData({image,name,designation,bio,competencies}){
+function CoreData({image,name,designation,mail,bio,competencies}){
     const navigate = useNavigate();
 
     function scrollToUpward(name){
@@ -84,10 +84,13 @@ function CoreData({image,name,designation,bio,competencies}){
                 <div className="row core-name mt-5">
                     <div className="col-lg-4 mt-3">
                         <img src={image} alt="" />
+
                     </div>
                     <div className="col-lg-8 mt-2">
                         <h3>{name}</h3>
                         <span className='pt-3'>{designation}</span>
+                        <br />
+                        <span className='pt-3'>{mail}</span>
                         <p className='my-4'>{bio}</p>
                         {/* <img className='social' src={Social} alt="" /> */}
                     </div>
@@ -144,7 +147,8 @@ function CoreData({image,name,designation,bio,competencies}){
                     <div className="col-lg-3 col-md-6 core-team1 mb-4" onClick={()=>scrollToUpward('Mahendra khandelwal') } >
                         <img className='member' src={CoreImage} alt="" />
                         <h5 className='text-center mt-3 mb-0'>Mahendra khandelwal </h5>
-                        <p className='text-center'>Design, Australia</p>
+                        <p className='text-center mb-0'>Managing Director</p>
+                        <p className='text-center'>khandelwalmahendar2@gmail.com</p>
                         {/* <img src={Social} alt="" /> */}
                     </div>
                     <div className="col-lg-3 col-md-6 core-team1 mb-4" onClick={()=> scrollToUpward('Mohit Bansal')}>
@@ -154,15 +158,17 @@ function CoreData({image,name,designation,bio,competencies}){
                         {/* <img src={Social} alt="" /> */}
                     </div>
                     <div className="col-lg-3 col-md-6 core-team1 mb-4" onClick={()=>scrollToUpward('Ravi Kant Baheti') }>
-                        <img className='member' src={Core3} alt="" />
+                        <img className='member' src={Ravi} alt="" />
                         <h5 className='text-center mt-3 mb-0'>Ravi Kant Baheti </h5>
-                        <p className='text-center'>Design, Australia</p>
+                        <p className='text-center mb-0'>Partner</p>
+                        <p className='text-center'>ravi@varrenyam.com</p>
                         {/* <img src={Social} alt="" /> */}
                     </div>
                     <div className="col-lg-3 col-md-6 core-team1 mb-4" onClick={()=> scrollToUpward('Astha Gupta')}>
                         <img className='member' src={Core4} alt="" />
                         <h5 className='text-center mt-3 mb-0'>Astha Gupta </h5>
-                        <p className='text-center'>Design, Australia</p>
+                        <p className='text-center mb-0'>Director</p>
+                        <p className='text-center'>astha.gupta@varrenyam.com </p>
                         {/* <img src={Social} alt="" /> */}
                     </div>
                     </div>

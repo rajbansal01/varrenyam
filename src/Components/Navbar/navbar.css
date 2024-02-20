@@ -22,7 +22,7 @@ div.navbar-area{
 }
 div.navbar-area div.navbar-brand img.navbar-brand-img{
     content: url('/src/Assets/varrenyamLogo.png');
-    width: 50% ;
+    width: 26% ;
 }
 
 div.navbar-area.scrolled{
