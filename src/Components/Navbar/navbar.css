@@ -107,7 +107,6 @@ div.navbar-area div.nav-toggler-icon{
     color: white;
     border-radius: 12px;
     box-shadow:1px 2px 5px -1px inset #f5f9fa;
-    
 }
 div.navbar-area.scrolled div.nav-toggler-icon{
     color: black;

@@ -6,6 +6,7 @@ import Map from '../../Assets/map.png'
 import Globe from '../../Assets/globe.png'
 // import Email from '../../Assets/email.png'
 import Email from '../../Assets/email.svg'
+import { NavLink } from "react-router-dom";
 
 function Footer(){
 
@@ -86,7 +87,7 @@ function Footer(){
                         <div className="single-footer-widget">
                             <h3>Contact Us</h3>
                             <ul className="list">
-<li>
+{/* <li> */}
 
     <div className="headig d-flex">
         <div className="img mx-3">
@@ -99,7 +100,11 @@ function Footer(){
             </p>
         </div>
     </div>
-</li>
+    <div className="enquiry">
+        <h3>Connect with us for free advisory services</h3>
+        <li> <NavLink  to={'/bookConsultation'}onClick={()=> window.scrollTo({ top: 0, behavior: 'smooth' })} > <button type="button" class="btn">Book A Free Consultant</button></NavLink></li>
+    </div>
+{/* </li> */}
                             </ul>
                         </div>
                     </div>

@@ -17,7 +17,7 @@ function Banner() {
           <h2 >Welcome to Varrenyam</h2>
           <p>Your Premier Partner in Holistic Financial Solutions</p>
           </div>
-          <Link to={'/bookConsultation'}><button type="button" class="btn btn-primary btn-sm" >Book a Consultation</button></Link>
+          {/* <Link to={'/bookConsultation'}><button type="button" class="btn btn-primary btn-sm" >Book a Consultation</button></Link> */}
           </div>
           </div>
       </div>
