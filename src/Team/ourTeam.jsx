@@ -32,28 +32,28 @@ function OurTeam(){
                         <img className='member' src={Core1} alt="" />
                         <h5 className='text-center mt-3 mb-0'>Mahendra khandelwal </h5>
                         <p className='text-center mb-0'>Managing Director</p>
-                        <p className='text-center'>khandelwalmahendar2@gmail.com</p>
-                        {/* <img src={Social} alt="" /> */}
-                    </div>
-                    <div className="col-lg-3 col-md-6 core-team1 mb-5" onClick={()=>navigate('/core1', { state: "MohitBansal"  }) }>
-                        <img className='member' src={Core2} alt="" />
-                        <h5 className='text-center mt-3 mb-0'>Mohit Bansal</h5>
-                        <p className='text-center mb-0'>Partner</p>
-                        <p className='text-center'>itmohitbansal83@gmail.com</p>
+                        {/* <p className='text-center'>khandelwalmahendar2@gmail.com</p> */}
                         {/* <img src={Social} alt="" /> */}
                     </div>
                     <div className="col-lg-3 col-md-6 core-team1 mb-5" onClick={()=>navigate('/core1', { state: "RaviKantBaheti"  }) }>
                         <img className='member' src={Ravi} alt="" />
                         <h5 className='text-center mt-3 mb-0'>Ravi Kant Baheti </h5>
                         <p className='text-center mb-0'>Partner</p>
-                        <p className='text-center'>ravi@varrenyam.com</p>
+                        {/* <p className='text-center'>ravi@varrenyam.com</p> */}
+                        {/* <img src={Social} alt="" /> */}
+                    </div>
+                    <div className="col-lg-3 col-md-6 core-team1 mb-5" onClick={()=>navigate('/core1', { state: "MohitBansal"  }) }>
+                        <img className='member' src={Core2} alt="" />
+                        <p className='text-center mb-0'>Partner</p>
+                        <h5 className='text-center mt-3 mb-0'>Mohit Bansal</h5>
+                        {/* <p className='text-center'>itmohitbansal83@gmail.com</p> */}
                         {/* <img src={Social} alt="" /> */}
                     </div>
                     <div className="col-lg-3 col-md-6 core-team1 mb-5" onClick={()=>navigate('/core1', { state: "AsthaGupta" }) }>
                         <img className='member' src={Core4} alt="" />
                         <h5 className='text-center mt-3 mb-0'>Astha Gupta </h5>
                         <p className='text-center mb-0'>Director</p>
-                        <p className='text-center'>astha.gupta@varrenyam.com</p>
+                        {/* <p className='text-center'>astha.gupta@varrenyam.com</p> */}
                         {/* <img src={Social} alt="" /> */}
                     </div>
                 </div>

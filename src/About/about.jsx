@@ -104,7 +104,7 @@ function About() {
             Our dedicated team of Partners and Associates has adeptly resolved
             over 20 significant accounts, including those in the 'dirty dozen,'
             leveraging the Insolvency and Bankruptcy Code (IBC) and addressing
-            more than Rs 1 lakh Cr in lenders' dues.
+            more than Rs 2 lakh Cr in lenders' dues.
           </li>
           <li>
             Raised over Rs 5000 Cr in debt and equity from lenders and fund

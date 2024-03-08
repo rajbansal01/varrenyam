@@ -34,10 +34,10 @@ console.log(state)
     // const names=['Mahendra khandelwal','Mohit']
     return(
         <>
-     {   key==='Mahendrakhandelwal'?<CoreData image={CoreImage1} name={'Mahendra khandelwal'} designation={'Managing Director'} mail={'khandelwalmahendar2@gmail.com'} bio={'With an illustrious career spanning over three decades, Mr. Mahender Khandelwal became a Chartered Accountant in 1991, evolving into a seasoned senior management and financial professional. Specializing in structuring and financing through debt and equity instruments, he excels in managing and turning around special situations and insolvency scenarios across diverse industries.'} competencies={competencies1}/>:''} 
-     {key==='MohitBansal'?<CoreData image={Core2} name={'Mohit Bansal'} designation={'Partner'} mail={'itmohitbansal83@gmail.com'} bio={'Mr. Mohit Bansal, Founder & MD at Credhub Technologies & Co-Founder at Phocket Infotech Private Limited, is an NSIT alumni in IT with more than 12 years of experience in Technology & Software Development. Leading fintech startup for short-term loans, he has worked for brands like Magicbricks, Quara Holding, Wasalt, and has strong experience in Fintech Products such as eWallet,Digital Lending Platform, Real-Estate & Valuation Platform, Payments & Home Finance digital Products.'} competencies={competencies2}/>:''}
-     {   key==='RaviKantBaheti'?<CoreData image={Ravi} name={'Ravi Kant Baheti'} designation={'Partner'} mail={'ravi@varrenyam.com'} bio={'With over 25 years of distinguished experience in the BFSI sector, Ravi Kaant Baheti is a seasoned professional with a comprehensive background as a Chartered Accountant. He has held key roles as CFO, Financial Controller, and Company Secretary, showcasing expertise across NBFCs, Insurance, HFCs, Merchant Banking, Mutual Funds, Securities Broker, and Wealth Management'} competencies={competencies3}/>:''}
-     {   key==='AsthaGupta'?<CoreData image={Core4} name={'Astha Gupta'} designation={'Director'} mail={'astha.gupta@varrenyam.com'} bio={'Astha Gupta brings with her almost a decade of expertise in consulting and banking. She is a Chartered Accountant and an honors graduate from Delhi University'} competencies={competencies4}/>:''}
+     {   key==='Mahendrakhandelwal'?<CoreData image={CoreImage1} name={'Mahendra khandelwal'} designation={'Managing Director'} mail={'khandelwalmahendar2@gmail.com'} bio={'With an esteemed career spanning more than three decades, Mr. Mahender Khandelwal embarked on his journey as a Chartered Accountant in 1991, evolving into a seasoned senior management and financial professional renowned for his expertise in structuring and financing through diverse debt and equity instruments. His proficiency extends to adeptly managing and orchestrating successful turnarounds for special situations and insolvency scenarios across a wide array of industries. Notably, he has led the restructuring and resolution of over 100 large corporations spanning sectors including Iron and Steel, Stainless Steel, Pharma, Hotels, and NBFCs, showcasing his exceptional leadership in navigating complex financial challenges.\nWith a wealth of experience, Mr. Khandelwal boasts extensive industry expertise, enabling him to effectively navigate intricate regulatory landscapes with finesse. His adeptness in handling regulatory agencies such as RBI, SEBI, GST, CBI, SFIO, and ED underscores his commitment to ensuring compliance and strategic financial governance. Furthermore, his sector-specific acumen spans across diverse domains including Iron and Steel, Pharma, Power and Infrastructure, Auto Component, Textile, Education, Construction, and Real Estate, reflecting his holistic approach towards addressing multifaceted financial complexities with precision and efficiency'} competencies={competencies1}/>:''} 
+     {key==='MohitBansal'?<CoreData image={Core2} name={'Mohit Bansal'} designation={'Partner'} mail={'itmohitbansal83@gmail.com'} bio={'With over 12 years of experience in Technology & Software Development, Mr. Mohit Bansal, an NSIT alumni in IT, serves as the Founder & MD at Credhub Technologies & Co-Founder at Phocket Infotech Private Limited. Spearheading a fintech startup specializing in short-term loans, he has contributed to prominent brands like Magicbricks, Quara Holding, and Wasalt. Mohit brings robust expertise in Fintech Products encompassing eWallet, Digital Lending Platform, Real-Estate & Valuation Platform, and Payments & Home Finance digital products.'} competencies={competencies2}/>:''}
+     {   key==='RaviKantBaheti'?<CoreData image={Ravi} name={'Ravi Kant Baheti'} designation={'Partner'} mail={'ravi@varrenyam.com'} bio={"With over 25 years in the BFSI sector, Mr. Ravi Kaant Baheti is an accomplished Chartered Accountant, served as CFO, Financial Controller, and Company Secretary across NBFCs, Insurance, HFCs, Merchant Banking, Mutual Funds, Securities Brokerage, and Wealth Management. He excels in financial planning, compliance, strategic relationship-building, and operational efficiency, evidenced by raising substantial funding, leading successful ERP implementations, and streamlining MIS reporting. Ravi's multifaceted management skills encompass audits, fund raising, board meetings, and legal matters. He is committed to continuous improvement, enhancing month-end reporting timeliness, and aligning with senior management to achieve corporate goals."} competencies={competencies3}/>:''}
+     {   key==='AsthaGupta'?<CoreData image={Core4} name={'Astha Gupta'} designation={'Director'} mail={'astha.gupta@varrenyam.com'} bio={"Astha Gupta, a seasoned professional with nearly a decade of experience in distressed asset management, corporate restructuring, and mergers & acquisitions, is highly regarded for her expertise in navigating complex financial scenarios. With a strong educational background in Chartered Accountancy, Astha's tenure at Yes Bank involved restructuring complex debt transactions, managing portfolios of Non-Performing Assets (NPA), and implementing resolution strategies. Previously, she held key positions at Kroll and PwC, specializing in corporate restructuring, mergers & acquisitions, and insolvency resolution. Astha's skill set includes preparing credit proposals, conducting sensitivity analysis, overseeing recovery through legal actions, liaising with third-party service providers, negotiating with stakeholders, and ensuring regulatory compliance, all contributing to her track record of achieving favorable outcomes in challenging financial situations."} competencies={competencies4}/>:''}
      {   key==='MUKESHKUMARJAIN'?<CoreData image={Core5} name={'MUKESH KUMAR JAIN'} designation={'PROFESSIONAL PROFILE OVERVIEW'} bio={'With over 32 years of distinguished experience, Mr. Mukesh Kumar Jain serves as the Co-founder and Partner at M/s MKRJ & Co. (Chartered Accountants). His expertise spans Finance, Accounting,Regulatory Compliance, Strategic Planning, Credit Facilities, Debt/Equity Restructuring, and more. Holding credentials as a registered Insolvency Professional, he showcases specialized proficiency in resolving intricate financial matters.'} competencies={competencies5}/>:''}
      {   key==='RAKESHKRAWAL'?<CoreData image={Core6} name={'RAKESH K RAWAL'} designation={'Rakesh K Rawal is a dynamic and result-oriented leader with 27 years of leading expertise in high-paced organizations and multiple ministries within the Government of India. He demonstrates a strategic approach, utilizing keen analysis and insights to drive organizational improvements and implement best practices'} competencies={competencies6}/>:''}
 
@@ -90,16 +90,15 @@ function CoreData({image,name,designation,mail,bio,competencies}){
                         <h3>{name}</h3>
                         <span className='pt-3'>{designation}</span>
                         <br />
-                        <span className='pt-3'>{mail}</span>
+                        {/* <span className='pt-3'>{mail}</span> */}
                         <p className='my-4'>{bio}</p>
                         {/* <img className='social' src={Social} alt="" /> */}
                     </div>
                 </div>
                 <div className="row biography">
-                <h2 className='fw-bolder mt-4'>Short Biography​</h2>
+                {/* <h2 className='fw-bolder mt-4'>Short Biography​</h2>
                 <h3 className='mt-2 mb-4'>Key Competencies</h3>
                 {competencies?.map(function (val, index) {
-                    // return { key: index, value: val * val };
                     console.log('key',index,'value',val)
                     let [beforehyphen ,afterhyphen] = val?.split(": ")
 
@@ -110,8 +109,8 @@ function CoreData({image,name,designation,mail,bio,competencies}){
                     </>
                 )
                 })
-            }
-              {   name==='Mahendra khandelwal'? <div className="row team-parts">
+            } */}
+              {/* {   name==='Mahendra khandelwal'? <div className="row team-parts">
                 <div className="col-lg-6">
                     <div className="part1 mb-4 ">
                         <h4>Industry Experience</h4>
@@ -136,7 +135,7 @@ function CoreData({image,name,designation,mail,bio,competencies}){
                         <p>Dedicated to driving success and achieving optimal financial outcomes in every endeavor.</p>
                     </div>
                 </div>
-               </div>:''} 
+               </div>:''}  */}
 
                 </div>
         </div>
@@ -148,28 +147,29 @@ function CoreData({image,name,designation,mail,bio,competencies}){
                         <img className='member' src={CoreImage} alt="" />
                         <h5 className='text-center mt-3 mb-0'>Mahendra khandelwal </h5>
                         <p className='text-center mb-0'>Managing Director</p>
-                        <p className='text-center'>khandelwalmahendar2@gmail.com</p>
+                        {/* <p className='text-center'>khandelwalmahendar2@gmail.com</p> */}
+                        {/* <img src={Social} alt="" /> */}
+                    </div>
+                    
+                    <div className="col-lg-3 col-md-6 core-team1 mb-4" onClick={()=>scrollToUpward('Ravi Kant Baheti') }>
+                        <img className='member' src={Ravi} alt="" />
+                        <h5 className='text-center mt-3 mb-0'>Ravi Kant Baheti </h5>
+                        <p className='text-center mb-0'>Partner</p>
+                        {/* <p className='text-center'>ravi@varrenyam.com</p> */}
                         {/* <img src={Social} alt="" /> */}
                     </div>
                     <div className="col-lg-3 col-md-6 core-team1 mb-4" onClick={()=> scrollToUpward('Mohit Bansal')}>
                         <img className='member' src={Core2} alt="" />
                         <h5 className='text-center mt-3 mb-0'>Mohit Bansal</h5>
                         <p className='text-center mb-0'>Partner</p>
-                        <p className='text-center'>itmohitbansal83@gmail.com</p>
-                        {/* <img src={Social} alt="" /> */}
-                    </div>
-                    <div className="col-lg-3 col-md-6 core-team1 mb-4" onClick={()=>scrollToUpward('Ravi Kant Baheti') }>
-                        <img className='member' src={Ravi} alt="" />
-                        <h5 className='text-center mt-3 mb-0'>Ravi Kant Baheti </h5>
-                        <p className='text-center mb-0'>Partner</p>
-                        <p className='text-center'>ravi@varrenyam.com</p>
+                        {/* <p className='text-center'>itmohitbansal83@gmail.com</p> */}
                         {/* <img src={Social} alt="" /> */}
                     </div>
                     <div className="col-lg-3 col-md-6 core-team1 mb-4" onClick={()=> scrollToUpward('Astha Gupta')}>
                         <img className='member' src={Core4} alt="" />
                         <h5 className='text-center mt-3 mb-0'>Astha Gupta </h5>
                         <p className='text-center mb-0'>Director</p>
-                        <p className='text-center'>astha.gupta@varrenyam.com </p>
+                        {/* <p className='text-center'>astha.gupta@varrenyam.com </p> */}
                         {/* <img src={Social} alt="" /> */}
                     </div>
                     </div>

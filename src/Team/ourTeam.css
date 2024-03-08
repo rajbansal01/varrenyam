@@ -141,7 +141,7 @@
     
 }
 .core-team .member{
-    width: 95%;
+    width: 70%;
 }
 .advisory-team .member{
     width: 95%;
@@ -205,7 +205,7 @@
     cursor: pointer;
 }
 .members .core-team1 .member{
-width: 95%;
+width: 70%;
 }
 @media screen and (max-width:991px) {
     .members .core-team1 .member{

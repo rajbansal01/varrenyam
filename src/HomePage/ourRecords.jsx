@@ -39,8 +39,16 @@ function OurRecords(){
 
                 <span>3</span>
                 <div className="first">
-                    <h3>Average Ticket Services</h3>
+                    <h3>Ticket Services</h3>
                     <p>Maintaining flexibility, VCPL caters to a diverse clientele with an average ticket size ranging from INR 50 Cr to INR 10,000 Cr, serving both SMEs and large corporations.</p>
+                </div>
+                </div>
+                <div className="row">
+
+                <span>4</span>
+                <div className="first">
+                    <h3>CIRP Resolution</h3>
+                    <p>Resolved more than 2 lacs crores in lenders dunes under Bankruptcy Code (IBC)</p>
                 </div>
                 </div>
             </div>
