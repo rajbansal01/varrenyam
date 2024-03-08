@@ -44,8 +44,8 @@ function OurTeam(){
                     </div>
                     <div className="col-lg-3 col-md-6 core-team1 mb-5" onClick={()=>navigate('/core1', { state: "MohitBansal"  }) }>
                         <img className='member' src={Core2} alt="" />
-                        <p className='text-center mb-0'>Partner</p>
                         <h5 className='text-center mt-3 mb-0'>Mohit Bansal</h5>
+                        <p className='text-center mb-0'>Partner</p>
                         {/* <p className='text-center'>itmohitbansal83@gmail.com</p> */}
                         {/* <img src={Social} alt="" /> */}
                     </div>
